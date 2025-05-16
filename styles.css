@@ -2,3 +2,14 @@
     height: 300px;
     width: 300px;
 }
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    aspect-ratio: 4 / 3; /* Optional: Helps keep a consistent image ratio */
+}
+.card-body {
+    padding: 1.5rem;
+    text-align: center;
+    min-height: 250px; /* Adjust as needed to balance card heights */
+}
