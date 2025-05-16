@@ -1,51 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>spicyfoods Restaurant</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <h1>Welcome to Our Hotel</h1>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+      <a class="navbar-brand" href="#">Spicyfoods</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="Home.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="Menu.html">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="About.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></li>
+          <li class="nav-item"><a class="btn btn-light ms-3" href="#">Reserve Table</a></li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="text-center text-white bg-dark py-5" style="background-image: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=1500&q=80'); background-size: cover; background-position: center;">
+    <div class="container py-5">
+      <h1 class="display-4 fw-bold">Delicious Food, Warm Atmosphere</h1>
+      <p class="lead">Experience traditional and modern cuisine under one roof.</p>
+      <a href="#" class="btn btn-warning btn-lg">View Our Menu</a>
     </div>
+  </section>
+
+  <!-- Menu Highlights -->
+  <section class="py-5 bg-light">
+    <div class="container text-center">
+      <h2 class="mb-4">Chef's Specials</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card-shadow-sm">
+            <img src="https://media.istockphoto.com/id/2181204121/photo/a-closeup-picture-of-a-tasty-panner-tikka-served-in-a-plate-at-a-restaurant.webp?a=1&b=1&s=612x612&w=0&k=20&c=Z0lv5mXv1etq0yF2Zf-Io6o6FqM9ndD9Iy-BRiG6A_E=" class="card-img-top" alt="Dish 1">
+            <div class="card-body">
+              <h5 class="card-title">Paneer Tikka</h5>
+              <p class="card-text">Grilled cottage cheese cubes marinated with Indian spices.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card-shadow-sm">
+            <img src="https://media.istockphoto.com/id/1364747474/photo/the-perfect-toppings.webp?a=1&b=1&s=612x612&w=0&k=20&c=-Hid_SNbVCs7TNRoQmWMrk2j7-zL1jVU9YchkDwbhQ8=" class="card-img-top" alt="Dish 2">
+            <div class="card-body">
+              <h5 class="card-title">Spicy Veg Pizza</h5>
+              <p class="card-text">Crispy thin crust topped with fresh vegetables and spicy sauce.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card-shadow-sm">
+            <img src="https://images.unsplash.com/photo-1673551490812-eaee2e9bf0ef?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2hvY2xhdGUlMjBsYXZhJTIwY2FrZXxlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="Dish 3">
+            <div class="card-body">
+              <h5 class="card-title">Chocolate Lava Cake</h5>
+              <p class="card-text">Warm gooey cake with rich molten chocolate center.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="https://media.istockphoto.com/id/921957348/photo/cooking-vegetables-step-seven-seasoning.webp?a=1&b=1&s=612x612&w=0&k=20&c=6n_nuniZl9clrZr0cKaTDkkK_dS7KEPmldlRf-1fQ9o=" class="img-fluid rounded" alt="Interior">
+        </div>
+        <div class="col-md-6">
+          <h2>About Spicyfoods</h2>
+          <p>Spicyfoods is your destination for authentic flavor and heartwarming hospitality. With decades of culinary expertise and a passion for excellence, we bring a unique twist to every dish we serve.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-danger text-white text-center py-4">
+    <div class="container">
+      <h3>Contact Us</h3>
+      <p>Email: contact@spicyfoods.com | Phone: +91 0489372929</p>
+      <a href="#" class="btn btn-light">Book a Table</a>
+    </div>
+  </section>
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">© 2025 Spicyfoods Restaurant. All rights reserved.</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
