@@ -4,26 +4,107 @@
   <meta charset="UTF-8" />
   <title>Spicyfoods - About</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
-</head>
-<style>
-    body{
-        background-color: black;
-        color: whitesmoke;
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <style>
+    body {
+      background-color: #000;
+      color: whitesmoke;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-</style>
+    .navbar {
+      background-color: #28a745 !important;
+    }
+    .navbar-brand {
+      color: white !important;
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+    .navbar-nav .nav-link {
+      color: white !important;
+      margin-left: 1rem;
+      transition: 0.3s;
+    }
+    .navbar-nav .nav-link:hover,
+    .navbar-nav .nav-item.active .nav-link {
+      color: #ffc107 !important;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    h2 {
+      color: #ffc107;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+    .about-section {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+      line-height: 1.8;
+    }
+    .highlight {
+      color: #28a745;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #343a40;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
 <body>
+
   <!-- Navbar -->
-  <!-- Mark About as active -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <div class="container">
+      <a class="navbar-brand" href="#">Spicyfoods</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="menu.html"><i class="fas fa-utensils"></i> Menu</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="About.html"><i class="fas fa-info-circle"></i> About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact.html"><i class="fas fa-envelope"></i> Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-  <section class="container py-5">
+  <!-- About Section -->
+  <section class="container about-section text-center">
     <h2>About Us</h2>
-    <p>Spicyfoods was founded in 2010 to bring authentic and modern Indian cuisine to your table. Our chefs have over 20 years of culinary experience, and our hospitality is second to none.</p>
-    <br><br>
-    <p>Spicyfoods is a wonderful place with different diverse where a foodie can explore different cusine like north,south,continental,beverages,etc...! </p>
-</section>
+    <p>
+      <span class="highlight">Spicyfoods</span> was founded in 2010 with the vision of bringing both traditional and modern Indian cuisine to everyone’s plate.
+      With chefs who hold over 20 years of culinary expertise, we ensure every dish is infused with flavor and love.
+    </p>
+    <p>
+      Our restaurant offers a diverse menu that includes North Indian, South Indian, Continental, Chinese, and an exclusive range of beverages and desserts.
+    </p>
+    <p>
+      <strong>About this website:</strong> This website is designed to help food lovers explore our menu, place orders, make reservations, and connect with us effortlessly.
+      Each page is tailored to ensure smooth navigation, detailed food descriptions, and a user-friendly experience.
+    </p>
+    <p>
+      Whether you're dining in or ordering online, <span class="highlight">Spicyfoods</span> promises to deliver excellence on every plate.
+    </p>
+  </section>
 
-  <footer class="bg-dark text-white text-center py-3">
+  <!-- Footer -->
+  <footer>
     © 2025 Spicyfoods Restaurant. All rights reserved.
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

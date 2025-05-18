@@ -11,6 +11,13 @@
             background-color: #f8f9fa;
             color: #333;
         }
+        .card video {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+    display: block;
+}
+
         .navbar {
             background-color: #28a745 !important; /* Vibrant green navbar */
         }
@@ -49,7 +56,6 @@
         }
         .col-md-4 {
             margin-bottom: 2rem;
-
         }
         .card {
             border: none;
@@ -64,6 +70,12 @@
         .card-img-top {
             height: 200px;
             object-fit: cover;
+        }
+        .card video {
+            height: 200px;
+            object-fit: cover;
+            width: 100%;
+            display: block;
         }
         .card-body {
             padding: 1.5rem;
@@ -130,6 +142,7 @@
             }
         }
     </style>
+</head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-success">
         <div class="container">
@@ -143,13 +156,10 @@
                         <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="menu.html"><i class="fas fa-utensils"></i> Menu</a>
+                        <a class="nav-link" href="Menu.html"><i class="fas fa-utensils"></i> Menu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="reservations.html"><i class="far fa-calendar-check"></i> Reservations</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html"><i class="fas fa-envelope"></i> Contact Us</a>
+                        <a class="nav-link" href="Contact.html"><i class="fas fa-envelope"></i> Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -164,7 +174,7 @@
         <div class="row g-4 pt-3">
             <div class="col-md-4">
                 <div class="card food-item">
-                    <video  src="video.mp4" autoplay loop="loop"></video>
+                    <video src="video.mp4" autoplay loop="loop"></video>
                     <div class="card-body food-details">
                         <h5 class="card-title">Malabar Biryani</h5>
                         <p class="card-text">Fragrant rice cooked with succulent chicken, aromatic spices, and a touch of coconut milk.</p>
@@ -172,7 +182,6 @@
                         <button class="btn btn-outline-success btn-sm"><i class="fas fa-shopping-cart"></i> Order Now</button>
                     </div>
                 </div>
-                
             </div>
             <div class="col-md-4">
                 <div class="card food-item">
@@ -187,7 +196,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card food-item">
-                    <img src="https://media.istockphoto.com/id/980078660/photo/indian-vegetable-pulav-or-biryani-made-using-basmati-rice-served-in-a-ceramic-bowl-selective.webp?a=1&b=1&s=612x612&w=0&k=20&c=DJ0zSKjnG89SyPAcTIbuSq5sorvWJ0aq8FBkCEgNWzM=">
+                    <img src="https://media.istockphoto.com/id/2077426665/photo/selective-focus-of-one-of-the-most-popular-food-in-india-biryani.webp?a=1&b=1&s=612x612&w=0&k=20&c=ocsaxzyeI9EbfEcfKEPni9VQs1J3y4E3qNEWBacLlSU=">
                     <div class="card-body food-details">
                         <h5 class="card-title">Vegetable Biryani</h5>
                         <p class="card-text">A delightful medley of fresh vegetables and aromatic rice, infused with traditional spices.</p>
@@ -202,7 +211,7 @@
         <div class="row g-4 pt-3">
             <div class="col-md-4">
                 <div class="card food-item">
-                    <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2019/07/paneer-tikka-recipe-480x270.jpg" class="card-img-top" alt="Paneer Tikka">
+                    <img src="https://media.istockphoto.com/id/2077426665/photo/selective-focus-of-one-of-the-most-popular-food-in-india-biryani.webp?a=1&b=1&s=612x612&w=0&k=20&c=ocsaxzyeI9EbfEcfKEPni9VQs1J3y4E3qNEWBacLlSU=" class="card-img-top" alt="Paneer Tikka">
                     <div class="card-body food-details">
                         <h5 class="card-title">Paneer Tikka</h5>
                         <p class="card-text">Cubes of Indian cheese marinated in yogurt and spices, grilled to a smoky perfection.</p>
@@ -213,7 +222,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card food-item">
-                    <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2016/06/chicken-65-recipe-1-480x270.jpg" class="card-img-top" alt="Chicken 65">
+                    <img src="https://media.istockphoto.com/id/2077426665/photo/selective-focus-of-one-of-the-most-popular-food-in-india-biryani.webp?a=1&b=1&s=612x612&w=0&k=20&c=ocsaxzyeI9EbfEcfKEPni9VQs1J3y4E3qNEWBacLlSU=" class="card-img-top" alt="Chicken 65">
                     <div class="card-body food-details">
                         <h5 class="card-title">Chicken 65</h5>
                         <p class="card-text">Spicy and flavorful deep-fried chicken marinated with ginger, garlic, and a blend of spices.</p>
@@ -224,7 +233,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card food-item">
-                    <img src="https://www.cookwithmanali.com/wp-content/uploads/2014/07/Samosa-Recipe.jpg" class="card-img-top" alt="Vegetable Samosas">
+                    <img src="https://media.istockphoto.com/id/2077426665/photo/selective-focus-of-one-of-the-most-popular-food-in-india-biryani.webp?a=1&b=1&s=612x612&w=0&k=20&c=ocsaxzyeI9EbfEcfKEPni9VQs1J3y4E3qNEWBacLlSU=" class="card-img-top" alt="Vegetable Samosas">
                     <div class="card-body food-details">
                         <h5 class="card-title">Vegetable Samosas</h5>
                         <p class="card-text">Crispy and savory pastries filled with spiced potatoes and peas.</p>
@@ -239,7 +248,7 @@
         <div class="row g-4 pt-3">
             <div class="col-md-4">
                 <div class="card food-item">
-                    <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2020/11/butter-chicken-recipe-500x375.jpg" class="card-img-top" alt="Butter Chicken">
+                    <img src="https://media.istockphoto.com/id/2077426665/photo/selective-focus-of-one-of-the-most-popular-food-in-india-biryani.webp?a=1&b=1&s=612x612&w=0&k=20&c=ocsaxzyeI9EbfEcfKEPni9VQs1J3y4E3qNEWBacLlSU=" class="card-img-top" alt="Butter Chicken">
                     <div class="card-body food-details">
                         <h5 class="card-title">Butter Chicken</h5>
                         <p class="card-text">Tender pieces of tandoori chicken simmered in a rich and creamy tomato-based gravy.</p>
@@ -250,7 +259,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card food-item">
-                    <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2013/01/dal-makhani-recipe-480x270.jpg" class="card-img-top" alt="Dal Makhani">
+                    <img src="https://media.istockphoto.com/id/2077426665/photo/selective-focus-of-one-of-the-most-popular-food-in-india-biryani.webp?a=1&b=1&s=612x612&w=0&k=20&c=ocsaxzyeI9EbfEcfKEPni9VQs1J3y4E3qNEWBacLlSU=" class="card-img-top" alt="Dal Makhani">
                     <div class="card-body food-details">
                         <h5 class="card-title">Dal Makhani</h5>
                         <p class="card-text">Black lentils and kidney beans slow-cooked with butter, cream, and aromatic spices.</p>
@@ -261,7 +270,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card food-item">
-                    <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2018/12/paneer-butter-masala-recipe-480x270.jpg" class="card-img-top" alt="Paneer Butter Masala">
+                    <img src="https://media.istockphoto.com/id/2077426665/photo/selective-focus-of-one-of-the-most-popular-food-in-india-biryani.webp?a=1&b=1&s=612x612&w=0&k=20&c=ocsaxzyeI9EbfEcfKEPni9VQs1J3y4E3qNEWBacLlSU=" class="card-img-top" alt="Paneer Butter Masala">
                     <div class="card-body food-details">
                         <h5 class="card-title">Paneer Butter Masala</h5>
                         <p class="card-text">Cubes of paneer cooked in a smooth, creamy, and mildly spiced tomato-based gravy.</p>
